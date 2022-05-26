@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 26px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 11px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #aaaaaa;
+}
+
+
+section.navBar{
+  box-shadow: -5px -5px 10px #dadada;
+}
+
+div.containerHeader{
+  /* background-color: chartreuse; */
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 160px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap ;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+div.containerHeader div.itemCourse{
+  margin: 10px 10px 10px 0;
+}
+
+
+div.containerPopular{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 160px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap ;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
